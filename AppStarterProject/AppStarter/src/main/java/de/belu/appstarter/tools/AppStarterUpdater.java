@@ -72,7 +72,7 @@ public class AppStarterUpdater extends Updater
         {
             JSONObject currentAsset = assets.getJSONObject(i);
             String downloadUrl = currentAsset.getString("browser_download_url");
-            if(downloadUrl.startsWith("https://github.com/sphinx02/FireStarter/releases") && downloadUrl.endsWith(".apk"))
+            if(downloadUrl.startsWith("https://github.com/sphinx02/") && downloadUrl.endsWith(".apk"))
             {
                 mApkDownloadUrl = downloadUrl;
                 break;
