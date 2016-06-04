@@ -1,54 +1,38 @@
-![Logo of FireStarter](https://raw.githubusercontent.com/sphinx02/FireStarter/master/Screenshots/firestarter-logo_small.png "Logo of FireStarter") FireStarter
+![Logo of AppStarter](https://raw.githubusercontent.com/sphinx02/AppStarter/master/Screenshots/firestarter-logo_small.png "Logo of AppStarter") AppStarter
 =========
 
 [![MPLv2 License](http://img.shields.io/badge/license-MPLv2-blue.svg?style=flat-square)](https://www.mozilla.org/MPL/2.0/)
 
-__FireStarter is a Non-Root Launcher Replacement / App-Drawer for Amazon FireTV:__
+__AppStarter is an App-Drawer for Amazon FireTV:__
 
 Visit discussion on XDA-Developers: 
- * <a href="http://forum.xda-developers.com/fire-tv/themes-apps/app-root-home-launcher-replacement-app-t3118135" target="_blank">[APP] FireStarter | Non-Root Home Launcher Replacement / App-Drawer for FireTV</a>
+ * <a href="http://forum.xda-developers.com/fire-tv/themes-apps/app-root-home-launcher-replacement-app-t3118135" target="_blank">[APP] AppStarter | Non-Root Home Launcher Replacement / App-Drawer for FireTV</a>
 
 ### Features:
  
- * Similar to Redth's <a href="https://github.com/Redth/FiredTVLauncher" target="_blank">FiredTVLauncher</a> with __REAL HOME BUTTON CLICK DETECTION__ 
- * (and no "amazon home is top-application"-detection).
- * __Even double-home-clicks are captured!!__
- * Completely configurable which app is started on startup-, home-button-single-click or home-button-double-click.
- * Default: Starts itself on FireTV-Startup.
- * Default: Starts itself when Home-Button is single-clicked.
- * Default: Starts amazon home when Home-Button is double-clicked (actually does nothing as amazon home is the default action for home-button clicks). 
- * You can e.g. start Kodi on double-click and FireStarter on single-click.
- * Also possible is to keep up the default behaviour (" - No Action - ") on a single-click (amazon home is starting) and to open e.g. FireStarter on a double-click.
  * Lists all user-installed apps including sideloaded / adb installed apps.
  * Apps can be easily sorted / ordered by settings-button or click-drag-and-drop (long-click to start drag-and-drop).
  * Apps can be hidden from app drawer (see settings).
- * Kodi and SPMC can be installed and updated directly out of FireStarter (see Updates section).
+ * Kodi and SPMC can be installed and updated directly out of AppStarter (see Updates section).
  * Possibility to change the time of no action the FireTV waits to go to sleep.
  * Possibility to import / export settings.
  * Show system and device informations like Android-Version, Build-Version, Hostname, WiFi- / WLAN Name (SSID), IP Adress and Uptime.
  * Automatic update mechanism.
  * __No root required!__
- 
-### FireStarter broken in newest FireTV-Firmware Versions >= 5.0.5.1
-Thanks to <a href="http://forum.xda-developers.com/showpost.php?p=66215906&postcount=591" target="_blank">jkchr1s</a> there exists a temporary workaround which fixes the problems in parts. I recommend to download the APK only from the GitHub-Repo https://github.com/jkchr1s/FireStarter/releases !
-If you are not familiar with installing APK's, you can try the links posted in http://forum.xda-developers.com/showpost.php?p=66229916&postcount=633 (be careful, download only .APK files and think about what you are doing!).
 
-### Install FireStarter:
+### Install AppStarter:
 
 __Easy installation in less than 5 minutes with only the FireTV__
- * https://github.com/sphinx02/FireStarter/wiki/Install-FireStarter-and-Kodi-(only-FireTV-needed)
+ * https://github.com/sphinx02/AppStarter/wiki/Install-AppStarter-and-Kodi-(only-FireTV-needed)
 
 __Standard installation via ADB__
  * If you don't know how to sideload/install apps via ADB, read a tutorial (e.g. <a href="http://kodi.wiki/view/HOW-TO:Install_Kodi_on_Fire_TV" target="_blank">this one</a>)
- * <a href="https://github.com/sphinx02/FireStarter/releases" target="_blank">Download latest FireStarter APK</a> and sideload/install with adb: 
- * _adb install -r FireStarter-v3.2.3.apk_
- * Start FireStarter once with adb (or manual from settings menu): 
- * _adb shell am start -n "de.belu.firestarter/de.belu.firestarter.gui.MainActivity"_
- * ADB-Debugging needs to stay enabled (do not disable ADB-Debugging after installation).
+ * <a href="https://github.com/sphinx02/AppStarter/releases" target="_blank">Download latest AppStarter APK</a> and sideload/install with adb: 
+ * _adb install -r AppStarter-v4.0.apk_
  * Enjoy :)
  
 ### Reviews / Articles:
- * [English / Installation Tutorial] <a href="https://www.youtube.com/watch?v=8_gkSeGBJP4" target="_blank">Amazon Fire Tv Stick How to install XBMC Kodi 15 and add-ons FireStarter IPTV iVue - YouTube</a>
+ * [English / Installation Tutorial] <a href="https://www.youtube.com/watch?v=8_gkSeGBJP4" target="_blank">Amazon Fire Tv Stick How to install XBMC Kodi 15 and add-ons AppStarter IPTV iVue - YouTube</a>
  * [English /  Text] <a href="http://www.aftvnews.com/firestarter-is-a-non-root-launcher-replacement-with-fantastic-home-button-detection/" target="_blank">..aftvnews.com/firestarter-..-fantastic-home..detection/</a>
  * [English /  Text] <a href="http://myezsystem.com/firestarter-new-launcher-for-firetv-stick" target="_blank">..myezsystem.com/firestarter-new-launcher-for-firetv-stick</a>
  * [English / Video] <a href="https://www.youtube.com/watch?v=FEpqG6vRXrY" target="_blank">..youtube.com/watch?v=FEpqG6vRXrY</a>
@@ -59,35 +43,21 @@ __Standard installation via ADB__
  * [Deutsch /  Text] <a href="http://www.usp-forum.de/artikel-ratgeber/9513-firestarter-neue-alternative-launcher-f-r-amazon-fire-tv.html" target="_blank">..usp-forum.de/..firestarter-..-launcher-..fire-tv.html</a>
  
 ### Changelog:
- * [Check releases page for changelog ..](https://github.com/sphinx02/FireStarter/releases)
-
-### ToDo List:
- * Further GUI optimizations
- * Add better install instructions for users that dont know adb..
- * Perhaps add possiblity to install and keep updated some apps via FireStarter (e.g. Kodi, Es File Explorer, ..)
+ * [Check releases page for changelog ..](https://github.com/sphinx02/AppStarter/releases)
 
 ### Screenshots:
 
-![Screenshot of FireStarter](https://raw.githubusercontent.com/sphinx02/FireStarter/master/Screenshots/firestarter_screenshot_01.png "Screenshot of FireStarter")
-![Screenshot of FireStarter](https://raw.githubusercontent.com/sphinx02/FireStarter/master/Screenshots/firestarter_screenshot_02.png "Screenshot of FireStarter")
-![Screenshot of FireStarter](https://raw.githubusercontent.com/sphinx02/FireStarter/master/Screenshots/firestarter_screenshot_03.png "Screenshot of FireStarter")
-![Screenshot of FireStarter](https://raw.githubusercontent.com/sphinx02/FireStarter/master/Screenshots/firestarter_screenshot_04.png "Screenshot of FireStarter")
-![Screenshot of FireStarter](https://raw.githubusercontent.com/sphinx02/FireStarter/master/Screenshots/firestarter_screenshot_05.png "Screenshot of FireStarter")
+![Screenshot of AppStarter](https://raw.githubusercontent.com/sphinx02/AppStarter/master/Screenshots/firestarter_screenshot_01.png "Screenshot of AppStarter")
+![Screenshot of AppStarter](https://raw.githubusercontent.com/sphinx02/AppStarter/master/Screenshots/firestarter_screenshot_02.png "Screenshot of AppStarter")
+![Screenshot of AppStarter](https://raw.githubusercontent.com/sphinx02/AppStarter/master/Screenshots/firestarter_screenshot_03.png "Screenshot of AppStarter")
+![Screenshot of AppStarter](https://raw.githubusercontent.com/sphinx02/AppStarter/master/Screenshots/firestarter_screenshot_04.png "Screenshot of AppStarter")
+![Screenshot of AppStarter](https://raw.githubusercontent.com/sphinx02/AppStarter/master/Screenshots/firestarter_screenshot_05.png "Screenshot of AppStarter")
 
-### Why using it and how it works:
- * FireStarter is for all people who dont want to root (and therefore loose warranty) their FireTV's.
- * On the FireTV, Amazon allows no alternative default launchers and in the default launcher of Amazon, no sideloaded (via adb installed apps) are shown. They have to be started via the FireTV settings menu which is really inconvenient.
- * Solutions currently out there are either using root-rights to replace the home launcher or they are polling the top application in the background and then starting other apps if e.g. the Amazon default launcher is detected.
- * FireStarter uses the fact, that every time the home-button is clicked, there is a special output in the adb logcat log. FireStarter starts a local adb logcat session and waites for this output (which is only working as long adb is enabled in FireTV settings). This approach has the advantage, that the top activity dont has to change to detect a home-button click. FireStarter is therefore even able to detect a double-click and starting any actions on home-button single- or double-clicks.
- * Still not solved is the problem, that the default launcher flashes shortly before the right app is started. The default-behaviour of the home-button can still not be disabled.
-
-### Credentials:
-
- * [markdown-editor](https://jbt.github.io/markdown-editor/) for markdown creation
- * [FiredTVLauncher](https://github.com/Redth/FiredTVLauncher) for a lot of brilliant ideas
- * [XDA-User g4rb4g3](http://forum.xda-developers.com/showpost.php?p=56319876&postcount=87) for the home-button detection idea
+### Why using it:
+ * AppStarter provides a nice possiblity to show all user installed Apps.
+ * AppStarter provides an Updater for Kodi and SMPC which allows to keep these two Apps up to date in a very convinient way.
  
 ### Donation:
 If you want to support my developments you are welcome to buy me a cup of coffee :)
- * [![Flattr this git repo](http://api.flattr.com/button/flattr-badge-large.png)](https://flattr.com/submit/auto?user_id=sphinx02&url=https://github.com/sphinx02/FireStarter&title=FireStarter&language=java&tags=github&category=software)
+ * [![Flattr this git repo](http://api.flattr.com/button/flattr-badge-large.png)](https://flattr.com/submit/auto?user_id=sphinx02&url=https://github.com/sphinx02/AppStarter&title=AppStarter&language=java&tags=github&category=software)
  * <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=KKQ6VU34YGKYS" target="_blank">PayPal donation link</a>
