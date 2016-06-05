@@ -6,7 +6,6 @@
 __FireStarter is now AppStarter: An AppDrawer and Kodi / SPMC Updater for Amazon FireTV:__
 
 Visit discussion on XDA-Developers: 
- * <a href="http://forum.xda-developers.com/fire-tv/themes-apps/app-root-home-launcher-replacement-app-t3118135" target="_blank">[APP] AppStarter | Non-Root Home Launcher Replacement / App-Drawer for FireTV</a>
 
 ### Features:
  
